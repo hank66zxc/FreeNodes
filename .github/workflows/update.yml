@@ -1,6 +1,7 @@
 name: Regular Update
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 4 * * *" # Run everyday at 12am in Beijing time
 
